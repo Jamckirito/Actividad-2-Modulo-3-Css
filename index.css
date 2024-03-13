@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        /*Es para dar color al fondo*/
+        background: rgba(59, 62, 64, 0.994);
+        /*Es para dar color al texto*/
+        color: rgb(219, 219, 255);
+        /*posicion de todo los que esta dentro de l texto */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*direccion del texto*/
+        flex-direction: column;
+        margin: 10px;
+}
+
+h1{
+    color: rgb(0, 137, 139);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: white 10px outset;
+    background-color: white;
+}
+
+h3{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    color: white;
+    text-justify: auto;
+}
+
+ol{
+    color: rgb(3, 94, 197);
+    text-justify: auto ;
+}
+
+a{
+    color: red;
+}
+
+video{
+    border: black 5px ridge;
+}
